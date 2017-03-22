@@ -13,6 +13,10 @@
         <a-camera></a-camera>
       </a-entity>
 
+      <a-entity light="type: point; intensity: 10.75; distance: 50; decay: 2"
+          position="0 0 0"></a-entity>
+      <a-entity light="type: ambient; color: #CCC; intensity: 1.25;"></a-entity>
+
       <a-sphere id="sun" src="assets/sunmap.jpg" position="0 0 0" radius="2.25">
         <a-animation attribute="rotation" dur="2192831" fill="forwards" to="0 360 0" repeat="indefinite"></a-animation>
       </a-sphere>
