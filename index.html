@@ -9,62 +9,66 @@
   </head>
   <body>
     <a-scene>
+      <a-entity position="0 2 40">
+        <a-camera></a-camera>
+      </a-entity>
+
       <a-sphere id="sun" src="assets/sunmap.jpg" position="0 0 0" radius="1.25">
         <a-animation attribute="rotation" dur="2192831" fill="forwards" to="0 360 0" repeat="indefinite"></a-animation>
       </a-sphere>
 
-      <a-entity position="5 0 0"; orbit-controls="autoRotate: true; target: #sun; rotateSpeed:0.25;">
+      <a-entity position="5 0 0"; orbit-controls="autoRotate: true; target: #sun; autoRotateSpeed:0.25;">
         <a-sphere id="mercury" src="assets/mercurymap.jpg" radius="1.25">
           <a-animation attribute="rotation" dur="5067031" fill="forwards" to="0 360 0" repeat="indefinite"></a-animation>
         </a-sphere>
       </a-entity>
 
-      <a-entity position="10 0 0"; orbit-controls="autoRotate: true; target: #sun; rotateSpeed:0.25;">
+      <a-entity position="10 0 0"; orbit-controls="autoRotate: true; target: #sun; autoRotateSpeed:1.62;">
         <a-sphere id="venus" src="assets/venusmap.jpg" radius="1.25">
           <a-animation attribute="rotation" dur="20996815" fill="forwards" to="0 -360 0" repeat="indefinite"></a-animation>
         </a-sphere>
       </a-entity>
 
-      <a-entity position="15 0 0"; orbit-controls="autoRotate: true; target: #sun; rotateSpeed:0.25;">
+      <a-entity position="15 0 0"; orbit-controls="autoRotate: true; target: #sun; autoRotateSpeed:5;">
         <a-sphere id="earth" src="assets/earthmap.jpg" radius="1.25">
           <a-animation attribute="rotation" dur="86400" fill="forwards" to="0 360 0" repeat="indefinite"></a-animation>
         </a-sphere>
       </a-entity>
 
-      <a-entity position="20 0 0"; orbit-controls="autoRotate: true; target: #sun; rotateSpeed:0.25;">
+      <a-entity position="20 0 0"; orbit-controls="autoRotate: true; target: #sun; autoRotateSpeed:2.50;">
         <a-sphere id="mars" src="assets/marsmap.jpg" radius="1.25">
           <a-animation attribute="rotation" dur="88000" fill="forwards" to="0 360 0" repeat="indefinite"></a-animation>
         </a-sphere>
       </a-entity>
 
 
-      <a-entity position="25 0 0"; orbit-controls="autoRotate: true; target: #sun; rotateSpeed:0.25;">
+      <a-entity position="25 0 0"; orbit-controls="autoRotate: true; target: #sun; autoRotateSpeed:0.42;">
         <a-sphere id="jupiter" src="assets/jupitermap.jpg" radius="1.25">
           <a-animation attribute="rotation" dur="35430" fill="forwards" to="0 360 0" repeat="indefinite"></a-animation>
         </a-sphere>
       </a-entity>
 
-      <a-entity position="30 0 0"; orbit-controls="autoRotate: true; target: #sun; rotateSpeed:0.25;">
+      <a-entity position="30 0 0"; orbit-controls="autoRotate: true; target: #sun; autoRotateSpeed:0.17;">
         <a-sphere id="saturn" src="assets/saturnmap.jpg" radius="1.25">
           <a-animation attribute="rotation" dur="36806" fill="forwards" to="0 360 0" repeat="indefinite"></a-animation>
         </a-sphere>
-        <a-ring id="saturnring" src="assets/saturnringpattern.gif" radius-inner="1.50" radius-outer="2.25" rotation="-45 -90 25"></a-ring>
+        <!-- <a-ring id="saturnring" src="assets/saturnringpattern.gif" radius-inner="38" radius-outer="39" rotation="-45 -90 25"></a-ring> -->
       </a-entity>
 
 
-      <a-entity position="35 0 0"; orbit-controls="autoRotate: true; target: #sun; rotateSpeed:0.25;">
+      <a-entity position="35 0 0"; orbit-controls="autoRotate: true; target: #sun; autoRotateSpeed:0.06;">
         <a-sphere id="uranus" src="assets/uranusmap.jpg" radius="1.25">
           <a-animation attribute="rotation" dur="62063" fill="forwards" to="0 -360 0" repeat="indefinite"></a-animation>
         </a-sphere>
       </a-entity>
 
-      <a-entity position="40 0 0"; orbit-controls="autoRotate: true; target: #sun; rotateSpeed:0.25;">
+      <a-entity position="40 0 0"; orbit-controls="autoRotate: true; target: #sun; autoRotateSpeed:0.03;">
         <a-sphere id="neptune" src="assets/neptunemap.jpg" radius="1.25">
           <a-animation attribute="rotation" dur="57996" fill="forwards" to="0 360 0" repeat="indefinite"></a-animation>
         </a-sphere>
       </a-entity>
 
-      <a-entity position="45 0 0"; orbit-controls="autoRotate: true; target: #sun; rotateSpeed:0.25;">
+      <a-entity position="45 0 0"; orbit-controls="autoRotate: true; target: #sun; autoRotateSpeed:0.02;">
         <a-sphere id="pluto" src="assets/plutomap.jpg" radius="1.25">
           <a-animation attribute="rotation" dur="551852" fill="forwards" to="0 -360 0" repeat="indefinite"></a-animation>
         </a-sphere>
