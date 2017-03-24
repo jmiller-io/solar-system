@@ -1,7 +1,7 @@
 # Solar System in A-Frame
 
 ## Description
-This is my first exploration project working with A-Frame
+This is my first explorative project working with A-Frame.
 
 
 ## Technologies Used
