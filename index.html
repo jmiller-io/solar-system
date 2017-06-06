@@ -6,6 +6,7 @@
     <meta name="description" content="Solar System in A-Frame">
     <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
     <script src="https://cdn.rawgit.com/tizzle/aframe-orbit-controls-component/master/dist/aframe-orbit-controls-component.min.js"></script>
+    <script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v3.8.3/dist/aframe-extras.min.js"></script>
   </head>
   <body>
     <a-scene>
@@ -18,9 +19,13 @@
       <a-entity light="type: ambient; color: #CCC; intensity: 1.25;"></a-entity>
 
       <!-- The Ship -->
-      <a-entity spaceship>
+      <a-entity position="0 2 38" scale="0.5 0.5 0.5" object-model="src: url(./assets/star-wars-vader-tie-fighter.json);">
 
       </a-entity>
+
+
+
+
 
       <a-sphere id="sun" src="assets/sunmap.jpg" position="0 0 0" radius="2.75">
         <a-animation attribute="rotation" dur="2192831" fill="forwards" to="0 360 0" repeat="indefinite"></a-animation>
