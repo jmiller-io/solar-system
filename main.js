@@ -19,3 +19,7 @@ console.log('hi from main')
 //   }
 // });
 // });
+
+var move = function() {
+  console.log('clicked')
+}
